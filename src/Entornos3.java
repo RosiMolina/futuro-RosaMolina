@@ -12,7 +12,7 @@ public class Entornos3 {
    System.out.println(veredicto);
     }
 
-    static String veredicto(String modulos, String horas_semanales) {
+   private static String veredicto(String modulos, String horas_semanales) {
         if (modulos.equals(horas_semanales)) {
             return "Dedicar una hora por módulo puede no ser suficiente.";
         }
