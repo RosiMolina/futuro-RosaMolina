@@ -7,7 +7,7 @@ public class Entornos3 {
         String veredicto= veredicto(Integer.toString(modulos), Integer.toString(horas_semanales));
 
 
-   System.out.println("Estudiante " + args[0]+ " " + args[1] + ":");
+   System.out.println("Estudiante " + args[0]+ " " + args[1] + ":"); //Aquí muestra el nombre del alumno
    System.out.println("Está matriculado en " + modulos + " módulos y dedica "+ horas_semanales + " horas semanales.");
    System.out.println(veredicto);
     }
